@@ -72,6 +72,22 @@ h1 {
   position: absolute;
   top: 1050px;
   left: 50%;
-  margin-left: -350px;
+  margin-left: -450px;
   padding: 100px;
+}
+
+.footer-title-text {
+  color: red;
+}
+
+.footer-body-text {
+  color: black;
+}
+
+.footer-date-text {
+  color: #8A8A8A;
+}
+
+.footer-div-piece {
+  border-left: thick double #8A8A8A;
 }
