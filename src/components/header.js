@@ -6,7 +6,7 @@ var naStyle = {height: 40};
 const Header = React.createClass({
   render() {
     return(
-      <div>
+      <div className="masthead">
         <nav className="navbar navbar-default transparent">
           <div className="container-fluid">
             <div className="navbar-header">
@@ -19,6 +19,7 @@ const Header = React.createClass({
             </div>
           </div>
         </nav>
+        <h1 className="text-center masthead-text">The Last Supper</h1>
       </div>
     )
   }
