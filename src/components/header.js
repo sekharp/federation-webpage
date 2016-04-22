@@ -1,20 +1,21 @@
 import React, { Component } from 'react';
 
 var brandStyle = {height: 40};
+var naStyle = {height: 40};
 
 const Header = React.createClass({
   render() {
     return(
       <div>
-        <nav className="navbar navbar-default">
+        <nav className="navbar navbar-default transparent">
           <div className="container-fluid">
             <div className="navbar-header">
               <a className="navbar-brand" href="#">
                 <img alt="Brand" style={brandStyle} src="http://i.imgur.com/Jdwd8N5.png" />
               </a>
-              <button type="button" className="btn btn-default navbar-btn">ABOUT THE CREW</button>
-              <button type="button" className="btn btn-default navbar-btn">HYPERSPACE FAQS</button>
-              <button type="button" className="btn btn-default navbar-btn">THE SPACECRAFT</button>
+              <a type="button" className="btn navbar-btn">ABOUT THE CREW</a>
+              <a type="button" className="btn navbar-btn">HYPERSPACE FAQS</a>
+              <a type="button" className="btn navbar-btn">THE SPACECRAFT</a>
             </div>
           </div>
         </nav>
