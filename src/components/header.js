@@ -19,7 +19,10 @@ const Header = React.createClass({
             </div>
           </div>
         </nav>
-        <h1 className="text-center masthead-text">The Last Supper</h1>
+        <div className="masthead-wrapper">
+          <h1 className="text-center masthead-text"><b>The Last Supper</b></h1><br/>
+          <button type="button" className="btn masthead-btn">Read More</button>
+        </div>
       </div>
     )
   }
