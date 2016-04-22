@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import '../assets/stylesheets/base.scss';
 
-import Navbar from './navbar'
 import Header from './header';
 import Article from './article';
 import Banner from './banner';

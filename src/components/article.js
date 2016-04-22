@@ -6,7 +6,7 @@ const Article = React.createClass({
       <div className="article-div">
         <div className="row">
             <div className="col-md-4">
-                <img className="article-img" src="http://i.imgur.com/FTMRiSp.png"/>
+              <img className="article-img" src="http://i.imgur.com/FTMRiSp.png"/>
             </div>
             <div className="col-md-8 article-text">
               <h5><b>Video: A Growing Number of Cylons are Feeling Misunderstood</b></h5>
