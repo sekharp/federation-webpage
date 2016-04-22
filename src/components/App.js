@@ -5,7 +5,7 @@ import '../assets/stylesheets/base.scss';
 import Navbar from './navbar'
 import Header from './header';
 import Article from './article';
-import Image from './image';
+import Banner from './banner';
 import Footer from './footer';
 
 const App = React.createClass({
@@ -14,7 +14,7 @@ const App = React.createClass({
       <div>
         <Header />
         <Article />
-        <Image />
+        <Banner />
         <Footer />
       </div>
     )
